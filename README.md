@@ -22,25 +22,25 @@ The goal is to provide actionable insights to account manager & staff based on m
 ## 📂 Project Structure
 
 football_corner_analysis/
-│
-├── data/
-│ ├── matches.csv # Matches with date, teams, score
-│ ├── corners.csv # Corner kick events with coordinates
-│ └── teams.csv # Team list with league info
-│
-├── sql/
-│ ├── queries.sql # Main SQL queries for analysis
-│
-├── notebooks/
-│ ├── 01_data_exploration.ipynb # Initial data exploration
-│ ├── 02_corners_analysis.ipynb # Detailed corner kick analysis
-│ └── 03_reporting.ipynb # Report generation
-│
-├── reports/
-│ ├── corner_insights.pdf # Final business report
-│ └── dashboard.png # Screenshot of Tableau/Redash dashboard
-│
-└── README.md # Project documentation
+
+**data**
+1. matches.csv # Matches with date, teams, score
+2. corners.csv # Corner kick events with coordinates
+3. teams.csv # Team list with league info
+
+**sql**
+queries.sql # Main SQL queries for analysis
+
+**notebooks**
+1. data_exploration.ipynb # Initial data exploration
+2. corners_analysis.ipynb # Detailed corner kick analysis
+3. reporting.ipynb # Report generation
+
+**reports**
+1. corner_insights.pdf # Final business report
+2. dashboard.png # Screenshot of Tableau/Redash dashboard
+
+**README.md** # Project documentation
 
 ---
 
