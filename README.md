@@ -42,27 +42,27 @@ football_corner_analysis/
 
 ### **teams.csv**
 
-![teams table](images/teams.png)
+![teams table](/Users/amastikbayev/Desktop/temp/experience/images/teams.png)
 
 ### **matches.csv**
 
-![matches table](images/matches.png)
+![matches table](/Users/amastikbayev/Desktop/temp/experience/images/matches.png)
 
 ### **players.csv**
 
-![players table](images/players.png)
+![players table](/Users/amastikbayev/Desktop/temp/experience/images/players.png)
 
 ### **corners.csv**
 
-![corners table](images/corners.png)
+![corners table](/Users/amastikbayev/Desktop/temp/experience/images/corners.png)
 
 ### **corners_analysis.csv**
 
-![corners_analysis table](images/corners_analysis.png)
+![corners_analysis table](/Users/amastikbayev/Desktop/temp/experience/images/corners_analysis.png)
 
 ### **match_events.csv**
 
-![match_events table](images/match_events.png)
+![match_events table](/Users/amastikbayev/Desktop/temp/experience/images/match_events.png)
 
 
 ---
