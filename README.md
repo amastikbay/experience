@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This project is a summary of a real-world analytics task done on the job with clients, specifically football clubs such as **Serie A/B FC**.  
+This project is a summary of a real-world analytics task done on the job with clients, specifically football clubs such as **Venezia and Palermo**.  
 
-The focus is on **corner kick analysis** using SQL (Redash), Python (Jupyter Notebooks), and BI (Tableau).  
+The focus is on **corner kick analysis** using SQL (Redash), Python (Jupyter Notebooks), and BI tool (Tableau).  
 
 The goal is to provide actionable insights to account manager & staff based on match events data.
 
@@ -27,81 +27,64 @@ football_corner_analysis/
 1. matches.csv # Matches with date, teams, score
 2. corners.csv # Corner kick events with coordinates
 3. teams.csv # Team list with league info
-
-**sql**
-queries.sql # Main SQL queries for analysis
+4. corners_analysis.csv # Full info on corners
+5. match_events.csv # events that happened in matches
+6. players.csv # players of the league
 
 **notebooks**
-1. data_exploration.ipynb # Initial data exploration
-2. corners_analysis.ipynb # Detailed corner kick analysis
-3. reporting.ipynb # Report generation
-
-**reports**
-1. corner_insights.pdf # Final business report
-2. dashboard.png # Screenshot of Tableau/Redash dashboard
-
-**README.md** # Project documentation
+1. experience.ipynb # notebook on outputs of the sql queries and visulisations
+2. experience_sql.sql # Detailed sql queries to get the necessary data
+3. README.md # Project documentation
 
 ---
 
 ## 🗄 Data Description
 
+### **teams.csv**
+
+![teams table](images/teams.png)
+
 ### **matches.csv**
-| Column        | Description                         |
-|---------------|-------------------------------------|
-| match_id      | Unique match identifier             |
-| date          | Date of the match                   |
-| home_team     | Home team name                      |
-| away_team     | Away team name                      |
-| score_home    | Final score of home team            |
-| score_away    | Final score of away team            |
+
+![matches table](images/matches.png)
+
+### **players.csv**
+
+![players table](images/players.png)
 
 ### **corners.csv**
-| Column        | Description                                     |
-|---------------|-------------------------------------------------|
-| match_id      | Match reference                                 |
-| minute        | Minute of the corner kick                       |
-| team          | Team that took the corner                       |
-| x_coord       | X coordinate of the ball destination (0–100)    |
-| y_coord       | Y coordinate of the ball destination (0–100)    |
-| side          | Side of the pitch where the corner was taken    |
 
-### **teams.csv**
-| Column        | Description                         |
-|---------------|-------------------------------------|
-| team_id       | Unique team identifier              |
-| team_name     | Name of the football team           |
-| league        | League name                         |
+![corners table](images/corners.png)
+
+### **corners_analysis.csv**
+
+![corners_analysis table](images/corners_analysis.png)
+
+### **match_events.csv**
+
+![match_events table](images/match_events.png)
+
 
 ---
 
 ## 🔍 Step by step
 
-1. **Data Loading & Cleaning** – Load CSV files into SQL database and Pandas DataFrames.
+P.S. in general in a work environment, this process involves extracting data from the cloud, querying using SQL, and analyzing in Python or BI tools. In this notebook, the workflow is demonstrated with CSV files for reproducibility: 
+
+1. **Data Loading & Cleaning** – Load CSV files Pandas DataFrames.
 2. **Exploratory Data Analysis** – Use SQL & Python to:
-   - Calculate average number of corners per match.
-   - Identify peak minutes for corners.
-   - Analyze distribution of corner deliveries by pitch zone.
-3. **Visualization** – Create:
-   - Heatmaps of delivery zones.
-   - Time-based distribution charts.
-4. **Business Insights** – Examples:
-   - Venezia FC had **65%** of corners in the last 10 matches delivered into the near-post zone.
-   - Corners from the right side resulted in more shots on goal than left-side deliveries.
+   - Calculate the average number of corners per match.
+   - Identify peak minutes for corner kicks.
+   - Analyze the distribution of corner deliveries by pitch zone.
+3. **Visualization**
+4. **Business Insights**
 
 ---
 
 ## 🛠 Tools & Technologies
 - **SQL (Redash)** – Querying and aggregating match event data.
 - **Python (Pandas, Matplotlib, Seaborn)** – Data wrangling and visualization.
-- **Excel** – Quick pivot table analysis for non-technical staff.
-- **Tableau / Power BI** – Interactive dashboard for coaches.
-
----
-
-## 📊 Example Insights
-> In matches where Venezia FC had more than **8 corners**, win probability increased by **17%**.  
-> Most dangerous deliveries came from the right-side near-post area.
+- **Tableau**
 
 ---
 
