@@ -40,29 +40,13 @@ football_corner_analysis/
 
 ## 🗄 Data Description
 
-### **teams.csv**
 
-![teams table](/Users/amastikbayev/Desktop/temp/experience/images/teams.png)
-
-### **matches.csv**
-
-![matches table](/Users/amastikbayev/Desktop/temp/experience/images/matches.png)
-
-### **players.csv**
-
-![players table](/Users/amastikbayev/Desktop/temp/experience/images/players.png)
-
-### **corners.csv**
-
-![corners table](/Users/amastikbayev/Desktop/temp/experience/images/corners.png)
-
-### **corners_analysis.csv**
-
-![corners_analysis table](/Users/amastikbayev/Desktop/temp/experience/images/corners_analysis.png)
-
-### **match_events.csv**
-
-![match_events table](/Users/amastikbayev/Desktop/temp/experience/images/match_events.png)
+<img width="430" height="111" alt="Image" src="https://github.com/user-attachments/assets/2e14043e-4f8c-4cfb-8486-0e4820088881" />
+<img width="1020" height="112" alt="Image" src="https://github.com/user-attachments/assets/23d09767-b39d-4a08-94d8-3e0cc9665682" />
+<img width="782" height="113" alt="Image" src="https://github.com/user-attachments/assets/0768102a-de5d-4a99-bea6-fe24922a0269" />
+<img width="442" height="114" alt="Image" src="https://github.com/user-attachments/assets/67d8f5dd-541d-4737-84d3-154a57617b25" />
+<img width="285" height="105" alt="Image" src="https://github.com/user-attachments/assets/28fe5075-38ff-4724-838e-3fed95244fe6" />
+<img width="351" height="110" alt="Image" src="https://github.com/user-attachments/assets/f1f77d57-487a-4042-85f5-321e32d62951" />
 
 
 ---
